@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    
+    body{
+        margin: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header{
+        width: 21cm;  /* A4 width */
+  height: 29.7cm;
+        /* background-color: aqua; */
+        position: absolute;
+        border: 1px solid black;
+    }
+    .bl{
+        background-color: rgb(23, 23, 59);
+        height: 16%;
+        width: 100%;
+        position: relative;
+    }
+.name{
+    color: rgb(178, 145, 56);
+    /* background-color: red; */
+    position: absolute;
+
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+
+    /* justify-content: center;
+    display: flex;
+    align-items: center; */
+
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.domain{
+    position: absolute;
+
+top: 65%;
+left: 33%;
+transform: translate(-50%, -50%);
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(178, 145, 56);
+font-size: 15px;
+}
+
+.img1{
+   top: 17px;
+}
+.img2{
+   top: 49px;
+}
+.img3{
+    top: 80px;
+}
+.img4{
+    top: 111px;
+}
+.img5{
+    top: 142px;
+}
+.img1,.img2, .img3, .img4,.img5{
+    height: 20px;
+    width: 20px;
+   right: 240px;
+   
+   position: absolute;
+}
+.call,.mail,.linkedin, .git,.loc{
+    color: rgb(178, 145, 56);
+    position: absolute;
+  font-size: 12px;
+  left: 560px;
+}
+.call{
+  
+  top: 17px;
+}
+.mail{
+top: 50px;
+right:10px
+}
+.linkedin{
+top: 76px;
+
+}
+.git{
+    top: 115px;
+}
+.loc{
+    top:145px
+}
+.pic{
+    height: 137px;
+    width: 115px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    visibility: hidden;
+}
+.border-line{
+    border-left: 3px solid rgb(178, 145, 56);
+    margin: 10px;
+    height: 82%;
+    left: 310px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 40% auto;
+      grid-gap: 8px;
+      align-items: flex-start;
+
+
+
+    }
+  
+    
+    .left-column-1 {
+      height: 215px;
+      /* background-color: lightgray; */
+      margin: 20px;
+      margin-bottom: 40px;
+      font-size: 10pt;
+      border-bottom: 1px solid black;
+      padding-bottom: 15px;
+    }
+    .left-column-2{
+        /* background-color: antiquewhite; */
+        margin: 20px;
+        margin-top: -150px;
+        margin-bottom: 0px;
+      padding: 20px;
+        font-size: 10pt;
+        border-bottom: 1px solid black;
+        height: 180px;
+    }
+    .left-column-3{
+       
+        font-size: 10pt;
+        margin: 20px;
+        margin-top: -105px;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+
+
+    }
+    .left-column-4{
+        font-size: 10pt;
+        margin: 20px;
+        margin-top: -215px;
+        border-bottom: 1px solid black;
+    }
+    .left-column-5{
+        font-size: 10pt;
+        margin: 20px;
+        margin-top: -165px;
+    }
+    .right-column-1 {
+        font-size: 10pt;
+        margin: 20px;
+        border-bottom: 1px solid black;
+    }
+    .right-column-2{
+        font-size: 10pt;
+        margin: 20px;
+        margin-top: -20px;
+        border-bottom: 1px solid black;
+        height: 153px;
+    }
+    .right-column-3{
+        font-size: 10pt;
+        margin: 20px;
+        margin-top: -20px;
+        border-bottom: 1px solid black;
+
+    }
+    .right-column-4{
+        font-size: 10pt;
+        margin: 20px;
+        margin-top: -20px;
+
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin: 0;
+      padding: 0;
+    }
+    .grid-item {
+      /* border: 1px solid black; */
+      padding: 8px;
+    }
+
+
+    .header1,.header-2, .header-3,.header-4,.header-5,.header-6,.header-7,.header-8,.header-9{
+        font-weight: 800;
+        color: rgb(178, 145, 56);
+    }
+    li,.lii{
+   
+        padding-bottom: 6px;
+       
+        
+    }
+  
+    .lii1,.lii2{
+        margin-top: 5px;
+    }
+    .lii3{
+        padding-bottom: 0px;
+    }
+    .yr{
+        right: 40px;
+        position: absolute;  
+
+    }
+    
+    .yr1{
+        right: 40px;
+        position: absolute;
+        top: 712px;
+    
+    }
+   
+</style>
+    </head>
+    <body>
+
+<div class="header">
+   <div class="bl">
+    <img src="cc.jpg" class="pic">
+    <div class="name">
+        DUMPETY SHIVA BHANU
+
+    </div>
+<div class="domain">
+    Proficient SQL Developer</div>
+
+  <img  class="img1" src="phone-call.png">
+  <span class="call">+91 8686863420</span>
+  <img class="img2" src="email.png">
+  <span class="mail">shivabhanu240@gmail.com</span>
+  <img class="img3" src="linkedin.png">
+  <span class="linkedin">https://www.linkedin.com/in/shiva-bhanu</span>
+  <img class="img4" src="code.png">
+  <span class="git">https://github.com/Shivabhanu</span>
+  <img class="img5" src="location.png">
+  <span class="loc" >Warangal, Telangana</span>
+  <!-- //#876D26 -->
+
+
+</div>
+<div class="border-line"></div>
+
+
+
+
+<div class="grid-container">
+    <div class="grid-item left-column-1"><header class="header1">SUMMARY</header><BR>Enthusiastic B.Tech Computer Science Engineering student with a passion for data management and database development. Proficient in SQL and database design, with a strong foundation in computer science principles. Adept at creating efficient queries, optimizing database performance, and ensuring data integrity. Eager to contribute academic knowledge and hands-on SQL expertise to a dynamic development team.</div>
+    <div class="grid-item right-column-1"><header class="header-6">PROJECTS</header><br>
+        <ul>
+            <li class="list-heading">
+              <strong>Bank Account Management System</strong><span class="yr">May '22</span>
+              <ul>
+                <li class="lii1">Developed a user-friendly Bank Account Management System, enhancing customer transactions and data tracking.</li>
+                <li>Implemented features for balance inquiries, fund transfers, and secure authentication methods.</li>
+                <li>Showcased strong teamwork by collaborating on timely delivery of the project.</li>  <!--ensuring efficient lead generation and customer engagement.</li> -->
+              </ul>
+            </li>
+            <li><strong> Student Database Management</strong><span class="yr">Jul '22</span>
+            <ul>
+                <li class="lii2">Designed and implemented a Student Database Management system, streamlining data organization and accessibility for administrative tasks.</li>
+                <li>Utilized SQL to develop database queries and optimize data retrieval, contributing to efficient student information management.</li>
+                <li class="lii3">Demonstrated problem-solving skills by identifying and resolving data inconsistencies, ensuring data accuracy within the Student Database Management system.</li>
+            </ul></li>
+          </ul>
+        </div>
+
+
+          
+    <div class="grid-item left-column-2"><HEADER class="header-2">TECHNICAL SKILLS</HEADER><br>
+       <ul>
+       <li> SQL Query Writing and Optimization</li>
+       <li> Database Design and Management</li>
+       <li> Data Modeling and Normalization</li>
+       <li> Relational Database Management Systems (RDBMS)</li>
+        <li> Data Structures and Algorithms (DSA) Proficiency</li>
+                <!-- <li> <b>Testing and Debugging:</b> Jest, Mocha, Chai, DevTools</li> -->
+       </ul> </div>
+    <div class="grid-item right-column-2" ><header class="header-7">ACHIEVEMENTS</header><br>
+    <ul>
+        <li>Led a team during the New Year fundraising campaign, successfully collecting funds for an orphanage home and bringing joy to the lives of underprivileged children.<span class="yr"> Jan '23</span></li>
+        <li>Successfully developed a House Price Prediction model using Batch Gradient Descent Algorithm as part of a capstone project. Demonstrated strong analytical and coding skills in implementing machine learning techniques to predict real estate prices.<br><span class="yr1"> Jul '21</span></li>
+
+    </ul></div>
+
+    <div class="grid-item left-column-3"><header class="header-3">CERTIFICATIONS</header><br>
+    <ul class="ul2">
+        <li class="li1">Introuduction to Databases (SQL)</li>
+        <li class="li2">Build your own Static Website (HTML & CSS)</li>
+        <li class="li3">Progamming Foundations (Python)</li>
+        
+    </ul></div>
+    <div class="grid-item right-column-3" ><header class="header-8">EDUCATION</header><br>
+      
+         
+
+            <ul>
+                <li class="list-heading">
+            Bachelor of Technology in Computer Science &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <span class="yr">Aug '17 - Sept '21</span>and Engineering | SR Autonomous |         Telangana, India.  
+            &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp;    &nbsp; &nbsp; &nbsp; &nbsp;     Cumulative Grade Point Average (CGPA): 6.60/10   
+              
+            
+                </li>
+               <br>
+               <li>
+                Intermediate (11th and 12th Grade) | <span class="yr">Jul '14 - Jul '16</span> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; SR Educational Institute | Telangana, India
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Percentage: 73.8%
+            </li><br>
+                <li>
+                    Matriculation (10th Grade) | SPR School of Excellence | <span class="yr">Mar '14</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Telangana, India 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 Grade Point Average (GPA): 9.3/10
+              
+                </li>
+                
+                </ul>
+        
+        
+    </div>
+    <div class="grid-item left-column-4">
+        <header class="header-4">POWER SKILLS</header><br>
+        <ul>
+            <!-- <li>Sharp analytical mindset</li>
+            <li>Meticulous attention to detail</li>
+            <li>Effective Communication</li>
+            <li>Imaginative and Empathetic</li>
+            <li>Quick to adapt</li> -->
+            <li>Friendly, adapatable to work on any team</li>
+            <li>Practical, detail oriented and realistic</li>
+            <li>Imaginative and Empathetic</li>
+            <li>Inquisitively solves problems</li>
+            <li>Curious and creative</li>
+            
+        </ul>
+    </div>
+    <div class="grid-item right-column-4"><header class="header-9">LANGUAGE PROFICIENCY</header><br>
+    <ul>
+        <li>English: Advanced (Proficient)  </li>
+        <li>Telugu: Native</li>
+        <li>Hindi: Intermediate</li>
+    
+    </ul></div>
+<div class="grid-item left-column-5"><header class="header-5">EXTRACURRICULAR ACTIVITIES</header><br>
+<ul>
+    <li>Soft Skills Workshop | SR Autonomous | Oct '21</li>
+    <li>Organized fundraising campaigns | NGO | Nov '22</li>
+</ul></div>
+    <!-- <div class="grid-item">Second Column</div>  -->
+  </div>
+  
+    </body>
+    
+</html>
